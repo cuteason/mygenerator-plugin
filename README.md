@@ -6,21 +6,21 @@ MyBatis Generator Plugin. 自动生成类和字段的注释，同时生成批量
 2. in your pom.xml, add dependency of the plugin.
 ```xml
 <build>
-		<plugins>
-			<plugin>
-				<groupId>org.mybatis.generator</groupId>
-				<artifactId>mybatis-generator-maven-plugin</artifactId>
-				<version>1.3.5</version>
-				<dependencies>
-					<dependency>
-						<groupId>com.hollyshi</groupId>
-						<artifactId>mygenerator-plugin</artifactId>
-						<version>1.0.0-SNAPSHOT</version>
-					</dependency>
-				</dependencies>
-			</plugin>
-		</plugins>
-	</build>
+    <plugins>
+        <plugin>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-maven-plugin</artifactId>
+            <version>1.3.5</version>
+            <dependencies>
+                <dependency>
+                    <groupId>com.hollyshi</groupId>
+                    <artifactId>mygenerator-plugin</artifactId>
+                    <version>1.0.0-SNAPSHOT</version>
+                </dependency>
+            </dependencies>
+        </plugin>
+    </plugins>
+</build>
 ```
 3. in your generatorConfig.xml, add the plugin.
 ```xml
